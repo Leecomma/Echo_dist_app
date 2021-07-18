@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+  <children>
+    <MenuBar VBox.vgrow="NEVER" />
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="400.0" prefWidth="640.0" VBox.vgrow="ALWAYS">
+         <children>
+            <ImageView fitHeight="74.0" fitWidth="116.0" layoutX="291.0" layoutY="14.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@lightning-bolt-outline.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="bottoP" alignment="CENTER" contentDisplay="CENTER" layoutX="208.0" layoutY="294.0" mnemonicParsing="false" prefHeight="74.0" prefWidth="224.0" text="GO!" textAlignment="JUSTIFY" />
+            <Label fx:id="label" alignment="TOP_LEFT" layoutX="239.0" layoutY="167.0" prefHeight="18.0" prefWidth="161.0">
+               <font>
+                  <Font size="10.0" />
+               </font></Label>
+            <TextField fx:id="botto" layoutX="220.0" layoutY="110.0" prefHeight="0.0" prefWidth="200.0" />
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>
