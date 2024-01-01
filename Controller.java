@@ -31,7 +31,7 @@ public class Controller {
             double dist;
             int a = Integer.parseInt(botto.getText());
 
-            dist = 335 * a;//335 м\с скорость распространения звука в воздхухе
+            dist = 335 * a;
             label.setText(" Расстояние до обьекта " + dist / 2);
         });
     }
